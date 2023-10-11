@@ -1,2 +1,1 @@
-# Landing_Page
-Landing page(odin project)
+Odin Project Landing Page Project with basic HTML and CSS.
