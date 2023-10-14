@@ -1,3 +1,8 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
 .header_1 img{
     width:100px;
     height:auto;
@@ -55,4 +60,49 @@ a{
     height:auto;
     justify-content: center;
     gap:24px;
+}
+
+.quote{
+    display:flex;
+    flex-direction: column;
+    max-width:500px;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.quote-person{
+    align-self:flex-end;
+    margin-top:0px;
+}
+
+.calltoaction{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    gap:80px;
+}
+
+.calltoaction button{
+    height:30px;
+    align-self: center;
+}
+
+.calltoaction p{
+    margin-top:0px;
+}
+
+.calltoaction h3{
+    margin-bottom: 0px;
+}
+
+.copyright{
+    display:flex;
+    justify-content: center;
+}
+
+.header{
+    background-color: #1F2937;
+    margin:0px;
 }
